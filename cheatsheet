@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cheatsheet/resources/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Basic Positioning Elements</title>
+  </head>
+
+  <body>
+    <header class="title">
+      <h1>Basic CSS Positioning Elements</h1>
+    </header>
+    <main>
+
+      <!-- table one -->
+
+      <h2>Display and Positioning</h2>
+      <table class="custom-table">
+        <thead class="categories">
+          <tr>
+            <td>Property</td>
+            <td>Common Values</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+        <tr class="data">
+          <td>Position</td>
+          <td>Static, Relative, Absolute or Fixed</td>
+          <td>Provides designers and developers options for positioning HTML elements on a web page.</td>
+        </tr>
+        <tr class="data">
+          <td>Z-Index</td>
+          <td>Numbers (1, 2, etc.)</td>
+          <td>Specifies how far back or how far forward an element will appear on a web page when it overlaps other elements.</td>
+        </tr>
+        <tr class="data">
+          <td>Display</td>
+          <td>Block, Inline or Inline-Block</td>
+          <td>Determines the type of render block for an element.</td>
+        </tr>
+        <tr class="data">
+          <td>Float</td>
+          <td>Directions (right, left, etc.)</td>
+          <td>Determines how far left or how far right an element should float within its parent element.</td>
+        </tr>
+        <tr class="data">
+          <td>Clear</td>
+          <td>Directions (right, left, both, etc.)</td>
+          <td>Specifies how an element should behave when it bumps into another element within the same containing element.</td>
+        </tr>
+      </table>
+       
+      <!-- table two -->
+
+      <h2>Position Attributes</h2>
+      <table class="custom-table">
+        <thead class="categories">
+          <tr>
+            <td>Attribute</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+        <tr class="data">
+          <td>Static</td>
+          <td>This is the default value for CSS position. The target element is positioned along with the natural document flow.</td>
+        </tr>
+        <tr class="data">
+          <td>Relative</td>
+          <td>Allows you to position an element relative to its default position.</td>
+        </tr>
+        <tr class="data">
+          <td>Absolute</td>
+          <td> All other elements on the page will ignore an element with this positioning on the page.</td>
+        </tr>
+        <tr class="data">
+          <td>Fixed</td>
+          <td>This pins the element to a specific spot on the page, leaving it unaffefcted by scrolling.</td>
+        </tr>
+        <tr class="data">
+          <td>Sticky</td>
+          <td>Positioned relative to its initial position in the HTML flow, until it crosses a threshold in the viewport. Like a hybrid absolute.</td>
+        </tr>
+      </table>
+
+      <!-- table three -->
+
+      <h2>Display Attributes</h2>
+      <table class="custom-table">
+        <thead class="categories">
+          <tr>
+            <td>Attribute</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+        <tr class="data">
+          <td>Block</td>
+          <td>Displays an element as a block element. It starts on a new line, and takes up the whole width.</td>
+        </tr>
+        <tr class="data">
+          <td>Inline</td>
+          <td>Displays an element as an inline element. Any height and width properties will have no effect.</td>
+        </tr>
+        <tr class="data">
+          <td>Inline-Block</td>
+          <td>Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.</td>
+        </tr>
+      </table>
+
+      <!-- Enjoy this playlist as a thank you for looking over my code! -->
+
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4bpDFJNxCJwmKflH0ZYZv7?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+    </main>
+  </body>
+</html>
