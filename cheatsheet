@@ -11,15 +11,22 @@
     <title>Basic Positioning Elements</title>
   </head>
 
-  <body>
+  <body class="content">
     <header class="title">
       <h1>Basic CSS Positioning Elements</h1>
     </header>
+    <nav class="navbar">
+      <ul>
+        <li> <a href="#Displayposition">Display & Positioning</a></li>
+        <li> <a href="#PositionAt">Position Attributes</a></li>
+        <li> <a href="#DisplayAt">Display Attributes</a></li>
+        <li> <a href="#Crunchy">Crunchy Tunes</a></li>
+      </ul>
+    </nav>
     <main>
 
       <!-- table one -->
-
-      <h2>Display and Positioning</h2>
+      <h2 id="Displayposition">Display & Positioning</h2>
       <table class="custom-table">
         <thead class="categories">
           <tr>
@@ -56,8 +63,7 @@
       </table>
        
       <!-- table two -->
-
-      <h2>Position Attributes</h2>
+      <h2 id="PositionAt">Position Attributes</h2>
       <table class="custom-table">
         <thead class="categories">
           <tr>
@@ -88,8 +94,7 @@
       </table>
 
       <!-- table three -->
-
-      <h2>Display Attributes</h2>
+      <h2 id="DisplayAt">Display Attributes</h2>
       <table class="custom-table">
         <thead class="categories">
           <tr>
@@ -112,9 +117,11 @@
       </table>
 
       <!-- Enjoy this playlist as a thank you for looking over my code! -->
-
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4bpDFJNxCJwmKflH0ZYZv7?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    
+      <footer id="Crunchy">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4bpDFJNxCJwmKflH0ZYZv7?utm_source=generator" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h3>Created by Steve R</h3>
+      </footer>
+      
     </main>
   </body>
 </html>
